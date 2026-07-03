@@ -1,0 +1,119 @@
+﻿C:/Users/abdurrouf/AppData/Local/Programs/Python/Python314/python.exe : C:\User
+s\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\co
+re\nanops.py:1028: RuntimeWarning: invalid value encountered in subtract
+At line:1 char:101
++ ... g_Project'; C:/Users/abdurrouf/AppData/Local/Programs/Python/Python31 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\abdurr...red in subtract 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  sqr = _ensure_numeric((avg - values) ** 2)
+C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-packages\pa
+ndas\core\nanops.py:1028: RuntimeWarning: invalid value encountered in subtract
+  sqr = _ensure_numeric((avg - values) ** 2)
+C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-packages\pa
+ndas\core\nanops.py:1028: RuntimeWarning: invalid value encountered in subtract
+  sqr = _ensure_numeric((avg - values) ** 2)
+CSV Files Found:
+combined_dataset.csv
+Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+Friday-WorkingHours-Morning.pcap_ISCX.csv
+Monday-WorkingHours.pcap_ISCX.csv
+Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+Tuesday-WorkingHours.pcap_ISCX.csv
+Wednesday-workingHours.pcap_ISCX.csv
+Loading combined_dataset.csv...
+Loading Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv...
+Loading Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv...
+Loading Friday-WorkingHours-Morning.pcap_ISCX.csv...
+Loading Monday-WorkingHours.pcap_ISCX.csv...
+Loading Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv...
+Loading Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv...
+Loading Tuesday-WorkingHours.pcap_ISCX.csv...
+Loading Wednesday-workingHours.pcap_ISCX.csv...
+
+Dataset Loaded Successfully!
+Shape: (5661486, 144)
+
+First 5 Rows
+   Destination Port  Flow Duration  Total Fwd Packets  ...  Idle Max  Idle Min  Label
+0           54865.0            3.0                2.0  ...       NaN       NaN    NaN
+1           55054.0          109.0                1.0  ...       NaN       NaN    NaN
+2           55055.0           52.0                1.0  ...       NaN       NaN    NaN
+3           46236.0           34.0                1.0  ...       NaN       NaN    NaN
+4           54863.0            3.0                2.0  ...       NaN       NaN    NaN
+
+[5 rows x 144 columns]
+
+Information
+<class 'pandas.DataFrame'>
+RangeIndex: 5661486 entries, 0 to 5661485
+Columns: 144 entries, Destination Port to Label
+dtypes: float64(132), int64(10), str(2)
+memory usage: 6.1 GB
+
+Statistics
+        Destination Port  Flow Duration  ...      Idle Min    Label
+count       2.830743e+06   2.830743e+06  ...  2.830743e+06  2830743
+unique               NaN            NaN  ...           NaN       15
+top                  NaN            NaN  ...           NaN   BENIGN
+freq                 NaN            NaN  ...           NaN  2273097
+mean        8.071483e+03   1.478566e+07  ...  7.920031e+06      NaN
+std         1.828363e+04   3.365374e+07  ...  2.336342e+07      NaN
+min         0.000000e+00  -1.300000e+01  ...  0.000000e+00      NaN
+25%         5.300000e+01   1.550000e+02  ...  0.000000e+00      NaN
+50%         8.000000e+01   3.131600e+04  ...  0.000000e+00      NaN
+75%         4.430000e+02   3.204828e+06  ...  0.000000e+00      NaN
+max         6.553500e+04   1.200000e+08  ...  1.200000e+08      NaN
+
+[11 rows x 144 columns]
+
+Columns
+['Destination Port', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Fwd Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Fwd Packet Length Std', 'Bwd Packet Length Max', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Bytes/s', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Std', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Total', 'Fwd IAT Mean', 'Fwd IAT Std', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Total', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Bwd IAT Min', 'Fwd PSH Flags', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Fwd Header Length', 'Bwd Header Length', 'Fwd Packets/s', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Mean', 'Packet Length Std', 'Packet Length Variance', 'FIN Flag Count', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Fwd Segment Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Bytes/Bulk', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Bwd Avg Bulk Rate', 'Subflow Fwd Packets', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_forward', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Mean', 'Active Std', 'Active Max', 'Active Min', 'Idle Mean', 'Idle Std', 'Idle Max', 'Idle Min', 'Label', 'Destination Port', 'Flow Duration', 'Total Fwd Packets', 'Total Backward Packets', 'Total Length of Bwd Packets', 'Fwd Packet Length Max', 'Fwd Packet Length Min', 'Fwd Packet Length Mean', 'Fwd Packet Length Std', 'Bwd Packet Length Min', 'Bwd Packet Length Mean', 'Bwd Packet Length Std', 'Flow Packets/s', 'Flow IAT Mean', 'Flow IAT Std', 'Flow IAT Max', 'Flow IAT Min', 'Fwd IAT Mean', 'Fwd IAT Std', 'Fwd IAT Max', 'Fwd IAT Min', 'Bwd IAT Mean', 'Bwd IAT Std', 'Bwd IAT Max', 'Bwd IAT Min', 'Bwd PSH Flags', 'Fwd URG Flags', 'Bwd URG Flags', 'Fwd Header Length', 'Bwd Header Length', 'Bwd Packets/s', 'Min Packet Length', 'Max Packet Length', 'Packet Length Mean', 'Packet Length Std', 'Packet Length Variance', 'SYN Flag Count', 'RST Flag Count', 'PSH Flag Count', 'ACK Flag Count', 'URG Flag Count', 'CWE Flag Count', 'ECE Flag Count', 'Down/Up Ratio', 'Average Packet Size', 'Avg Fwd Segment Size', 'Avg Bwd Segment Size', 'Fwd Header Length.1', 'Fwd Avg Packets/Bulk', 'Fwd Avg Bulk Rate', 'Bwd Avg Bytes/Bulk', 'Bwd Avg Packets/Bulk', 'Subflow Fwd Bytes', 'Subflow Bwd Packets', 'Subflow Bwd Bytes', 'Init_Win_bytes_backward', 'act_data_pkt_fwd', 'min_seg_size_forward', 'Active Std', 'Active Max', 'Active Min', 'Idle Std', 'Idle Max', 'Idle Min', 'Label']
+
+Attack Types
+Traceback (most recent call last):
+  File "E:\Files\China\NUAA\2nd Semester\Data 
+Mining\CyberSecurity_DataMining_Project\main.py", line 90, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Files\China\NUAA\2nd Semester\Data 
+Mining\CyberSecurity_DataMining_Project\main.py", line 76, in main
+    print(dataset["Label"].value_counts())
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-pac
+kages\pandas\core\frame.py", line 8689, in value_counts
+    counts = self.groupby(
+             ~~~~~~~~~~~~^
+        subset, sort=False, dropna=dropna, observed=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )._grouper.size()
+    ^
+  File "C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-pac
+kages\pandas\util\_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-pac
+kages\pandas\core\frame.py", line 10833, in groupby
+    return DataFrameGroupBy(
+        obj=self,
+    ...<6 lines>...
+        dropna=dropna,
+    )
+  File "C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-pac
+kages\pandas\core\groupby\groupby.py", line 1095, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<4 lines>...
+        dropna=self.dropna,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\abdurrouf\AppData\Local\Programs\Python\Python314\Lib\site-pac
+kages\pandas\core\groupby\grouper.py", line 896, in get_grouper
+    raise ValueError(f"Grouper for '{name}' not 1-dimensional")
+ValueError: Grouper for 'Label' not 1-dimensional
