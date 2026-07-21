@@ -1,0 +1,2 @@
+Experiment,Model,Accuracy,Macro Precision,Macro Recall,Macro F1-score,Weighted F1-score,Training Time (s),Training Samples,Testing Samples,Number of Classes
+multiclass_random_split_xgboost,XGBoost,0.9987999799996666,0.9367910537986095,0.9056260099963147,0.9161414255780059,0.9987587239327257,27.21827220916748,239994,59999,12

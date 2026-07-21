@@ -1,0 +1,25 @@
+# SCI upgrade generated and private data
+*.zip
+*.7z
+*.rar
+*.joblib
+*.parquet
+*.feather
+.env
+.env.*
+
+# Experiment cache
+.cache/
+cache/
+outputs/cache/
+
+# LaTeX build products
+publication/build/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc

@@ -1,0 +1,271 @@
+Run_ID,Cross_Partition_Fingerprint_Overlap,Train_Rows_Before_Cap,Test_Rows_Before_Cap,Removed_Conflicting_Label_Rows,Temporal_Test_Overlap_Rows,Temporal_Novel_Only,Held_Out_Attack,Removed_Test_Overlap_Rows
+random_xgboost_42,18628.0,2057948,514487,,,,,
+group_xgboost_42,0.0,2057648,513325,1462.0,,,,
+temporal_xgboost_42,,1950670,620303,1462.0,27141.0,False,,
+temporal_novel_xgboost_42,,1950670,593162,1462.0,27141.0,True,,
+unseen_xgboost_42_Bot,0.0,2140917,430056,1462.0,,,Bot,0.0
+unseen_xgboost_42_DDoS,0.0,2014854,556119,1462.0,,,DDoS,0.0
+unseen_xgboost_42_DoS GoldenEye,0.0,2132583,438390,1462.0,,,DoS GoldenEye,0.0
+unseen_xgboost_42_DoS Hulk,0.0,1970168,600805,1462.0,,,DoS Hulk,0.0
+unseen_xgboost_42_DoS Slowhttptest,0.0,2137637,433336,1462.0,,,DoS Slowhttptest,0.0
+unseen_xgboost_42_DoS slowloris,0.0,2137493,433480,1462.0,,,DoS slowloris,0.0
+unseen_xgboost_42_FTP-Patator,0.0,2136934,434039,1462.0,,,FTP-Patator,0.0
+unseen_xgboost_42_Heartbleed,0.0,2142854,428119,1462.0,,,Heartbleed,0.0
+unseen_xgboost_42_Infiltration,0.0,2142829,428144,1462.0,,,Infiltration,0.0
+unseen_xgboost_42_PortScan,0.0,2052735,518238,1462.0,,,PortScan,0.0
+unseen_xgboost_42_SSH-Patator,0.0,2139646,431327,1462.0,,,SSH-Patator,0.0
+unseen_xgboost_42_Web Attack - Brute Force,0.0,2141395,429578,1462.0,,,Web Attack - Brute Force,0.0
+unseen_xgboost_42_Web Attack - SQL Injection,0.0,2142844,428129,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_xgboost_42_Web Attack - XSS,0.0,2142213,428760,1462.0,,,Web Attack - XSS,0.0
+random_logistic_regression_42,18628.0,2057948,514487,,,,,
+random_decision_tree_42,18628.0,2057948,514487,,,,,
+random_random_forest_42,18628.0,2057948,514487,,,,,
+random_linear_svm_42,18628.0,2057948,514487,,,,,
+group_logistic_regression_42,0.0,2057648,513325,1462.0,,,,
+group_decision_tree_42,0.0,2057648,513325,1462.0,,,,
+group_random_forest_42,0.0,2057648,513325,1462.0,,,,
+group_linear_svm_42,0.0,2057648,513325,1462.0,,,,
+temporal_logistic_regression_42,,1950670,620303,1462.0,27141.0,False,,
+temporal_decision_tree_42,,1950670,620303,1462.0,27141.0,False,,
+temporal_random_forest_42,,1950670,620303,1462.0,27141.0,False,,
+temporal_linear_svm_42,,1950670,620303,1462.0,27141.0,False,,
+temporal_novel_logistic_regression_42,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_decision_tree_42,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_random_forest_42,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_linear_svm_42,,1950670,593162,1462.0,27141.0,True,,
+random_logistic_regression_52,18519.0,2057948,514487,,,,,
+random_decision_tree_52,18519.0,2057948,514487,,,,,
+random_random_forest_52,18519.0,2057948,514487,,,,,
+random_linear_svm_52,18519.0,2057948,514487,,,,,
+random_xgboost_52,18519.0,2057948,514487,,,,,
+group_logistic_regression_52,0.0,2057407,513566,1462.0,,,,
+group_decision_tree_52,0.0,2057407,513566,1462.0,,,,
+group_random_forest_52,0.0,2057407,513566,1462.0,,,,
+group_linear_svm_52,0.0,2057407,513566,1462.0,,,,
+group_xgboost_52,0.0,2057407,513566,1462.0,,,,
+temporal_logistic_regression_52,,1950670,620303,1462.0,27141.0,False,,
+temporal_decision_tree_52,,1950670,620303,1462.0,27141.0,False,,
+temporal_random_forest_52,,1950670,620303,1462.0,27141.0,False,,
+temporal_linear_svm_52,,1950670,620303,1462.0,27141.0,False,,
+temporal_xgboost_52,,1950670,620303,1462.0,27141.0,False,,
+temporal_novel_logistic_regression_52,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_decision_tree_52,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_random_forest_52,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_linear_svm_52,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_xgboost_52,,1950670,593162,1462.0,27141.0,True,,
+random_logistic_regression_62,18537.0,2057948,514487,,,,,
+random_decision_tree_62,18537.0,2057948,514487,,,,,
+random_random_forest_62,18537.0,2057948,514487,,,,,
+random_linear_svm_62,18537.0,2057948,514487,,,,,
+random_xgboost_62,18537.0,2057948,514487,,,,,
+group_logistic_regression_62,0.0,2056626,514347,1462.0,,,,
+group_decision_tree_62,0.0,2056626,514347,1462.0,,,,
+group_random_forest_62,0.0,2056626,514347,1462.0,,,,
+group_linear_svm_62,0.0,2056626,514347,1462.0,,,,
+group_xgboost_62,0.0,2056626,514347,1462.0,,,,
+temporal_logistic_regression_62,,1950670,620303,1462.0,27141.0,False,,
+temporal_decision_tree_62,,1950670,620303,1462.0,27141.0,False,,
+temporal_random_forest_62,,1950670,620303,1462.0,27141.0,False,,
+temporal_linear_svm_62,,1950670,620303,1462.0,27141.0,False,,
+temporal_xgboost_62,,1950670,620303,1462.0,27141.0,False,,
+temporal_novel_logistic_regression_62,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_decision_tree_62,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_random_forest_62,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_linear_svm_62,,1950670,593162,1462.0,27141.0,True,,
+temporal_novel_xgboost_62,,1950670,593162,1462.0,27141.0,True,,
+unseen_logistic_regression_42_Bot,0.0,2140917,430056,1462.0,,,Bot,0.0
+unseen_decision_tree_42_Bot,0.0,2140917,430056,1462.0,,,Bot,0.0
+unseen_random_forest_42_Bot,0.0,2140917,430056,1462.0,,,Bot,0.0
+unseen_linear_svm_42_Bot,0.0,2140917,430056,1462.0,,,Bot,0.0
+unseen_logistic_regression_42_DDoS,0.0,2014854,556119,1462.0,,,DDoS,0.0
+unseen_decision_tree_42_DDoS,0.0,2014854,556119,1462.0,,,DDoS,0.0
+unseen_random_forest_42_DDoS,0.0,2014854,556119,1462.0,,,DDoS,0.0
+unseen_linear_svm_42_DDoS,0.0,2014854,556119,1462.0,,,DDoS,0.0
+unseen_logistic_regression_42_DoS GoldenEye,0.0,2132583,438390,1462.0,,,DoS GoldenEye,0.0
+unseen_decision_tree_42_DoS GoldenEye,0.0,2132583,438390,1462.0,,,DoS GoldenEye,0.0
+unseen_random_forest_42_DoS GoldenEye,0.0,2132583,438390,1462.0,,,DoS GoldenEye,0.0
+unseen_linear_svm_42_DoS GoldenEye,0.0,2132583,438390,1462.0,,,DoS GoldenEye,0.0
+unseen_logistic_regression_42_DoS Hulk,0.0,1970168,600805,1462.0,,,DoS Hulk,0.0
+unseen_decision_tree_42_DoS Hulk,0.0,1970168,600805,1462.0,,,DoS Hulk,0.0
+unseen_random_forest_42_DoS Hulk,0.0,1970168,600805,1462.0,,,DoS Hulk,0.0
+unseen_linear_svm_42_DoS Hulk,0.0,1970168,600805,1462.0,,,DoS Hulk,0.0
+unseen_logistic_regression_42_DoS Slowhttptest,0.0,2137637,433336,1462.0,,,DoS Slowhttptest,0.0
+unseen_decision_tree_42_DoS Slowhttptest,0.0,2137637,433336,1462.0,,,DoS Slowhttptest,0.0
+unseen_random_forest_42_DoS Slowhttptest,0.0,2137637,433336,1462.0,,,DoS Slowhttptest,0.0
+unseen_linear_svm_42_DoS Slowhttptest,0.0,2137637,433336,1462.0,,,DoS Slowhttptest,0.0
+unseen_logistic_regression_42_DoS slowloris,0.0,2137493,433480,1462.0,,,DoS slowloris,0.0
+unseen_decision_tree_42_DoS slowloris,0.0,2137493,433480,1462.0,,,DoS slowloris,0.0
+unseen_random_forest_42_DoS slowloris,0.0,2137493,433480,1462.0,,,DoS slowloris,0.0
+unseen_linear_svm_42_DoS slowloris,0.0,2137493,433480,1462.0,,,DoS slowloris,0.0
+unseen_logistic_regression_42_FTP-Patator,0.0,2136934,434039,1462.0,,,FTP-Patator,0.0
+unseen_decision_tree_42_FTP-Patator,0.0,2136934,434039,1462.0,,,FTP-Patator,0.0
+unseen_random_forest_42_FTP-Patator,0.0,2136934,434039,1462.0,,,FTP-Patator,0.0
+unseen_linear_svm_42_FTP-Patator,0.0,2136934,434039,1462.0,,,FTP-Patator,0.0
+unseen_logistic_regression_42_Heartbleed,0.0,2142854,428119,1462.0,,,Heartbleed,0.0
+unseen_decision_tree_42_Heartbleed,0.0,2142854,428119,1462.0,,,Heartbleed,0.0
+unseen_random_forest_42_Heartbleed,0.0,2142854,428119,1462.0,,,Heartbleed,0.0
+unseen_linear_svm_42_Heartbleed,0.0,2142854,428119,1462.0,,,Heartbleed,0.0
+unseen_logistic_regression_42_Infiltration,0.0,2142829,428144,1462.0,,,Infiltration,0.0
+unseen_decision_tree_42_Infiltration,0.0,2142829,428144,1462.0,,,Infiltration,0.0
+unseen_random_forest_42_Infiltration,0.0,2142829,428144,1462.0,,,Infiltration,0.0
+unseen_linear_svm_42_Infiltration,0.0,2142829,428144,1462.0,,,Infiltration,0.0
+unseen_logistic_regression_42_PortScan,0.0,2052735,518238,1462.0,,,PortScan,0.0
+unseen_decision_tree_42_PortScan,0.0,2052735,518238,1462.0,,,PortScan,0.0
+unseen_random_forest_42_PortScan,0.0,2052735,518238,1462.0,,,PortScan,0.0
+unseen_linear_svm_42_PortScan,0.0,2052735,518238,1462.0,,,PortScan,0.0
+unseen_logistic_regression_42_SSH-Patator,0.0,2139646,431327,1462.0,,,SSH-Patator,0.0
+unseen_decision_tree_42_SSH-Patator,0.0,2139646,431327,1462.0,,,SSH-Patator,0.0
+unseen_random_forest_42_SSH-Patator,0.0,2139646,431327,1462.0,,,SSH-Patator,0.0
+unseen_linear_svm_42_SSH-Patator,0.0,2139646,431327,1462.0,,,SSH-Patator,0.0
+unseen_logistic_regression_42_Web Attack - Brute Force,0.0,2141395,429578,1462.0,,,Web Attack - Brute Force,0.0
+unseen_decision_tree_42_Web Attack - Brute Force,0.0,2141395,429578,1462.0,,,Web Attack - Brute Force,0.0
+unseen_random_forest_42_Web Attack - Brute Force,0.0,2141395,429578,1462.0,,,Web Attack - Brute Force,0.0
+unseen_linear_svm_42_Web Attack - Brute Force,0.0,2141395,429578,1462.0,,,Web Attack - Brute Force,0.0
+unseen_logistic_regression_42_Web Attack - SQL Injection,0.0,2142844,428129,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_decision_tree_42_Web Attack - SQL Injection,0.0,2142844,428129,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_random_forest_42_Web Attack - SQL Injection,0.0,2142844,428129,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_linear_svm_42_Web Attack - SQL Injection,0.0,2142844,428129,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_logistic_regression_42_Web Attack - XSS,0.0,2142213,428760,1462.0,,,Web Attack - XSS,0.0
+unseen_decision_tree_42_Web Attack - XSS,0.0,2142213,428760,1462.0,,,Web Attack - XSS,0.0
+unseen_random_forest_42_Web Attack - XSS,0.0,2142213,428760,1462.0,,,Web Attack - XSS,0.0
+unseen_linear_svm_42_Web Attack - XSS,0.0,2142213,428760,1462.0,,,Web Attack - XSS,0.0
+unseen_logistic_regression_52_Bot,0.0,2140916,430057,1462.0,,,Bot,0.0
+unseen_decision_tree_52_Bot,0.0,2140916,430057,1462.0,,,Bot,0.0
+unseen_random_forest_52_Bot,0.0,2140916,430057,1462.0,,,Bot,0.0
+unseen_linear_svm_52_Bot,0.0,2140916,430057,1462.0,,,Bot,0.0
+unseen_xgboost_52_Bot,0.0,2140916,430057,1462.0,,,Bot,0.0
+unseen_logistic_regression_52_DDoS,0.0,2014853,556120,1462.0,,,DDoS,0.0
+unseen_decision_tree_52_DDoS,0.0,2014853,556120,1462.0,,,DDoS,0.0
+unseen_random_forest_52_DDoS,0.0,2014853,556120,1462.0,,,DDoS,0.0
+unseen_linear_svm_52_DDoS,0.0,2014853,556120,1462.0,,,DDoS,0.0
+unseen_xgboost_52_DDoS,0.0,2014853,556120,1462.0,,,DDoS,0.0
+unseen_logistic_regression_52_DoS GoldenEye,0.0,2132582,438391,1462.0,,,DoS GoldenEye,0.0
+unseen_decision_tree_52_DoS GoldenEye,0.0,2132582,438391,1462.0,,,DoS GoldenEye,0.0
+unseen_random_forest_52_DoS GoldenEye,0.0,2132582,438391,1462.0,,,DoS GoldenEye,0.0
+unseen_linear_svm_52_DoS GoldenEye,0.0,2132582,438391,1462.0,,,DoS GoldenEye,0.0
+unseen_xgboost_52_DoS GoldenEye,0.0,2132582,438391,1462.0,,,DoS GoldenEye,0.0
+unseen_logistic_regression_52_DoS Hulk,0.0,1970167,600806,1462.0,,,DoS Hulk,0.0
+unseen_decision_tree_52_DoS Hulk,0.0,1970167,600806,1462.0,,,DoS Hulk,0.0
+unseen_random_forest_52_DoS Hulk,0.0,1970167,600806,1462.0,,,DoS Hulk,0.0
+unseen_linear_svm_52_DoS Hulk,0.0,1970167,600806,1462.0,,,DoS Hulk,0.0
+unseen_xgboost_52_DoS Hulk,0.0,1970167,600806,1462.0,,,DoS Hulk,0.0
+unseen_logistic_regression_52_DoS Slowhttptest,0.0,2137636,433337,1462.0,,,DoS Slowhttptest,0.0
+unseen_decision_tree_52_DoS Slowhttptest,0.0,2137636,433337,1462.0,,,DoS Slowhttptest,0.0
+unseen_random_forest_52_DoS Slowhttptest,0.0,2137636,433337,1462.0,,,DoS Slowhttptest,0.0
+unseen_linear_svm_52_DoS Slowhttptest,0.0,2137636,433337,1462.0,,,DoS Slowhttptest,0.0
+unseen_xgboost_52_DoS Slowhttptest,0.0,2137636,433337,1462.0,,,DoS Slowhttptest,0.0
+unseen_logistic_regression_52_DoS slowloris,0.0,2137492,433481,1462.0,,,DoS slowloris,0.0
+unseen_decision_tree_52_DoS slowloris,0.0,2137492,433481,1462.0,,,DoS slowloris,0.0
+unseen_random_forest_52_DoS slowloris,0.0,2137492,433481,1462.0,,,DoS slowloris,0.0
+unseen_linear_svm_52_DoS slowloris,0.0,2137492,433481,1462.0,,,DoS slowloris,0.0
+unseen_xgboost_52_DoS slowloris,0.0,2137492,433481,1462.0,,,DoS slowloris,0.0
+unseen_logistic_regression_52_FTP-Patator,0.0,2136933,434040,1462.0,,,FTP-Patator,0.0
+unseen_decision_tree_52_FTP-Patator,0.0,2136933,434040,1462.0,,,FTP-Patator,0.0
+unseen_random_forest_52_FTP-Patator,0.0,2136933,434040,1462.0,,,FTP-Patator,0.0
+unseen_linear_svm_52_FTP-Patator,0.0,2136933,434040,1462.0,,,FTP-Patator,0.0
+unseen_xgboost_52_FTP-Patator,0.0,2136933,434040,1462.0,,,FTP-Patator,0.0
+unseen_logistic_regression_52_Heartbleed,0.0,2142853,428120,1462.0,,,Heartbleed,0.0
+unseen_decision_tree_52_Heartbleed,0.0,2142853,428120,1462.0,,,Heartbleed,0.0
+unseen_random_forest_52_Heartbleed,0.0,2142853,428120,1462.0,,,Heartbleed,0.0
+unseen_linear_svm_52_Heartbleed,0.0,2142853,428120,1462.0,,,Heartbleed,0.0
+unseen_xgboost_52_Heartbleed,0.0,2142853,428120,1462.0,,,Heartbleed,0.0
+unseen_logistic_regression_52_Infiltration,0.0,2142828,428145,1462.0,,,Infiltration,0.0
+unseen_decision_tree_52_Infiltration,0.0,2142828,428145,1462.0,,,Infiltration,0.0
+unseen_random_forest_52_Infiltration,0.0,2142828,428145,1462.0,,,Infiltration,0.0
+unseen_linear_svm_52_Infiltration,0.0,2142828,428145,1462.0,,,Infiltration,0.0
+unseen_xgboost_52_Infiltration,0.0,2142828,428145,1462.0,,,Infiltration,0.0
+unseen_logistic_regression_52_PortScan,0.0,2052734,518239,1462.0,,,PortScan,0.0
+unseen_decision_tree_52_PortScan,0.0,2052734,518239,1462.0,,,PortScan,0.0
+unseen_random_forest_52_PortScan,0.0,2052734,518239,1462.0,,,PortScan,0.0
+unseen_linear_svm_52_PortScan,0.0,2052734,518239,1462.0,,,PortScan,0.0
+unseen_xgboost_52_PortScan,0.0,2052734,518239,1462.0,,,PortScan,0.0
+unseen_logistic_regression_52_SSH-Patator,0.0,2139645,431328,1462.0,,,SSH-Patator,0.0
+unseen_decision_tree_52_SSH-Patator,0.0,2139645,431328,1462.0,,,SSH-Patator,0.0
+unseen_random_forest_52_SSH-Patator,0.0,2139645,431328,1462.0,,,SSH-Patator,0.0
+unseen_linear_svm_52_SSH-Patator,0.0,2139645,431328,1462.0,,,SSH-Patator,0.0
+unseen_xgboost_52_SSH-Patator,0.0,2139645,431328,1462.0,,,SSH-Patator,0.0
+unseen_logistic_regression_52_Web Attack - Brute Force,0.0,2141394,429579,1462.0,,,Web Attack - Brute Force,0.0
+unseen_decision_tree_52_Web Attack - Brute Force,0.0,2141394,429579,1462.0,,,Web Attack - Brute Force,0.0
+unseen_random_forest_52_Web Attack - Brute Force,0.0,2141394,429579,1462.0,,,Web Attack - Brute Force,0.0
+unseen_linear_svm_52_Web Attack - Brute Force,0.0,2141394,429579,1462.0,,,Web Attack - Brute Force,0.0
+unseen_xgboost_52_Web Attack - Brute Force,0.0,2141394,429579,1462.0,,,Web Attack - Brute Force,0.0
+unseen_logistic_regression_52_Web Attack - SQL Injection,0.0,2142843,428130,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_decision_tree_52_Web Attack - SQL Injection,0.0,2142843,428130,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_random_forest_52_Web Attack - SQL Injection,0.0,2142843,428130,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_linear_svm_52_Web Attack - SQL Injection,0.0,2142843,428130,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_xgboost_52_Web Attack - SQL Injection,0.0,2142843,428130,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_logistic_regression_52_Web Attack - XSS,0.0,2142212,428761,1462.0,,,Web Attack - XSS,0.0
+unseen_decision_tree_52_Web Attack - XSS,0.0,2142212,428761,1462.0,,,Web Attack - XSS,0.0
+unseen_random_forest_52_Web Attack - XSS,0.0,2142212,428761,1462.0,,,Web Attack - XSS,0.0
+unseen_linear_svm_52_Web Attack - XSS,0.0,2142212,428761,1462.0,,,Web Attack - XSS,0.0
+unseen_xgboost_52_Web Attack - XSS,0.0,2142212,428761,1462.0,,,Web Attack - XSS,0.0
+unseen_logistic_regression_62_Bot,0.0,2139522,431451,1462.0,,,Bot,0.0
+unseen_decision_tree_62_Bot,0.0,2139522,431451,1462.0,,,Bot,0.0
+unseen_random_forest_62_Bot,0.0,2139522,431451,1462.0,,,Bot,0.0
+unseen_linear_svm_62_Bot,0.0,2139522,431451,1462.0,,,Bot,0.0
+unseen_xgboost_62_Bot,0.0,2139522,431451,1462.0,,,Bot,0.0
+unseen_logistic_regression_62_DDoS,0.0,2013459,557514,1462.0,,,DDoS,0.0
+unseen_decision_tree_62_DDoS,0.0,2013459,557514,1462.0,,,DDoS,0.0
+unseen_random_forest_62_DDoS,0.0,2013459,557514,1462.0,,,DDoS,0.0
+unseen_linear_svm_62_DDoS,0.0,2013459,557514,1462.0,,,DDoS,0.0
+unseen_xgboost_62_DDoS,0.0,2013459,557514,1462.0,,,DDoS,0.0
+unseen_logistic_regression_62_DoS GoldenEye,0.0,2131188,439785,1462.0,,,DoS GoldenEye,0.0
+unseen_decision_tree_62_DoS GoldenEye,0.0,2131188,439785,1462.0,,,DoS GoldenEye,0.0
+unseen_random_forest_62_DoS GoldenEye,0.0,2131188,439785,1462.0,,,DoS GoldenEye,0.0
+unseen_linear_svm_62_DoS GoldenEye,0.0,2131188,439785,1462.0,,,DoS GoldenEye,0.0
+unseen_xgboost_62_DoS GoldenEye,0.0,2131188,439785,1462.0,,,DoS GoldenEye,0.0
+unseen_logistic_regression_62_DoS Hulk,0.0,1968773,602200,1462.0,,,DoS Hulk,0.0
+unseen_decision_tree_62_DoS Hulk,0.0,1968773,602200,1462.0,,,DoS Hulk,0.0
+unseen_random_forest_62_DoS Hulk,0.0,1968773,602200,1462.0,,,DoS Hulk,0.0
+unseen_linear_svm_62_DoS Hulk,0.0,1968773,602200,1462.0,,,DoS Hulk,0.0
+unseen_xgboost_62_DoS Hulk,0.0,1968773,602200,1462.0,,,DoS Hulk,0.0
+unseen_logistic_regression_62_DoS Slowhttptest,0.0,2136242,434731,1462.0,,,DoS Slowhttptest,0.0
+unseen_decision_tree_62_DoS Slowhttptest,0.0,2136242,434731,1462.0,,,DoS Slowhttptest,0.0
+unseen_random_forest_62_DoS Slowhttptest,0.0,2136242,434731,1462.0,,,DoS Slowhttptest,0.0
+unseen_linear_svm_62_DoS Slowhttptest,0.0,2136242,434731,1462.0,,,DoS Slowhttptest,0.0
+unseen_xgboost_62_DoS Slowhttptest,0.0,2136242,434731,1462.0,,,DoS Slowhttptest,0.0
+unseen_logistic_regression_62_DoS slowloris,0.0,2136098,434875,1462.0,,,DoS slowloris,0.0
+unseen_decision_tree_62_DoS slowloris,0.0,2136098,434875,1462.0,,,DoS slowloris,0.0
+unseen_random_forest_62_DoS slowloris,0.0,2136098,434875,1462.0,,,DoS slowloris,0.0
+unseen_linear_svm_62_DoS slowloris,0.0,2136098,434875,1462.0,,,DoS slowloris,0.0
+unseen_xgboost_62_DoS slowloris,0.0,2136098,434875,1462.0,,,DoS slowloris,0.0
+unseen_logistic_regression_62_FTP-Patator,0.0,2135539,435434,1462.0,,,FTP-Patator,0.0
+unseen_decision_tree_62_FTP-Patator,0.0,2135539,435434,1462.0,,,FTP-Patator,0.0
+unseen_random_forest_62_FTP-Patator,0.0,2135539,435434,1462.0,,,FTP-Patator,0.0
+unseen_linear_svm_62_FTP-Patator,0.0,2135539,435434,1462.0,,,FTP-Patator,0.0
+unseen_xgboost_62_FTP-Patator,0.0,2135539,435434,1462.0,,,FTP-Patator,0.0
+unseen_logistic_regression_62_Heartbleed,0.0,2141459,429514,1462.0,,,Heartbleed,0.0
+unseen_decision_tree_62_Heartbleed,0.0,2141459,429514,1462.0,,,Heartbleed,0.0
+unseen_random_forest_62_Heartbleed,0.0,2141459,429514,1462.0,,,Heartbleed,0.0
+unseen_linear_svm_62_Heartbleed,0.0,2141459,429514,1462.0,,,Heartbleed,0.0
+unseen_xgboost_62_Heartbleed,0.0,2141459,429514,1462.0,,,Heartbleed,0.0
+unseen_logistic_regression_62_Infiltration,0.0,2141434,429539,1462.0,,,Infiltration,0.0
+unseen_decision_tree_62_Infiltration,0.0,2141434,429539,1462.0,,,Infiltration,0.0
+unseen_random_forest_62_Infiltration,0.0,2141434,429539,1462.0,,,Infiltration,0.0
+unseen_linear_svm_62_Infiltration,0.0,2141434,429539,1462.0,,,Infiltration,0.0
+unseen_xgboost_62_Infiltration,0.0,2141434,429539,1462.0,,,Infiltration,0.0
+unseen_logistic_regression_62_PortScan,0.0,2051340,519633,1462.0,,,PortScan,0.0
+unseen_decision_tree_62_PortScan,0.0,2051340,519633,1462.0,,,PortScan,0.0
+unseen_random_forest_62_PortScan,0.0,2051340,519633,1462.0,,,PortScan,0.0
+unseen_linear_svm_62_PortScan,0.0,2051340,519633,1462.0,,,PortScan,0.0
+unseen_xgboost_62_PortScan,0.0,2051340,519633,1462.0,,,PortScan,0.0
+unseen_logistic_regression_62_SSH-Patator,0.0,2138251,432722,1462.0,,,SSH-Patator,0.0
+unseen_decision_tree_62_SSH-Patator,0.0,2138251,432722,1462.0,,,SSH-Patator,0.0
+unseen_random_forest_62_SSH-Patator,0.0,2138251,432722,1462.0,,,SSH-Patator,0.0
+unseen_linear_svm_62_SSH-Patator,0.0,2138251,432722,1462.0,,,SSH-Patator,0.0
+unseen_xgboost_62_SSH-Patator,0.0,2138251,432722,1462.0,,,SSH-Patator,0.0
+unseen_logistic_regression_62_Web Attack - Brute Force,0.0,2140000,430973,1462.0,,,Web Attack - Brute Force,0.0
+unseen_decision_tree_62_Web Attack - Brute Force,0.0,2140000,430973,1462.0,,,Web Attack - Brute Force,0.0
+unseen_random_forest_62_Web Attack - Brute Force,0.0,2140000,430973,1462.0,,,Web Attack - Brute Force,0.0
+unseen_linear_svm_62_Web Attack - Brute Force,0.0,2140000,430973,1462.0,,,Web Attack - Brute Force,0.0
+unseen_xgboost_62_Web Attack - Brute Force,0.0,2140000,430973,1462.0,,,Web Attack - Brute Force,0.0
+unseen_logistic_regression_62_Web Attack - SQL Injection,0.0,2141449,429524,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_decision_tree_62_Web Attack - SQL Injection,0.0,2141449,429524,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_random_forest_62_Web Attack - SQL Injection,0.0,2141449,429524,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_linear_svm_62_Web Attack - SQL Injection,0.0,2141449,429524,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_xgboost_62_Web Attack - SQL Injection,0.0,2141449,429524,1462.0,,,Web Attack - SQL Injection,0.0
+unseen_logistic_regression_62_Web Attack - XSS,0.0,2140818,430155,1462.0,,,Web Attack - XSS,0.0
+unseen_decision_tree_62_Web Attack - XSS,0.0,2140818,430155,1462.0,,,Web Attack - XSS,0.0
+unseen_random_forest_62_Web Attack - XSS,0.0,2140818,430155,1462.0,,,Web Attack - XSS,0.0
+unseen_linear_svm_62_Web Attack - XSS,0.0,2140818,430155,1462.0,,,Web Attack - XSS,0.0
+unseen_xgboost_62_Web Attack - XSS,0.0,2140818,430155,1462.0,,,Web Attack - XSS,0.0

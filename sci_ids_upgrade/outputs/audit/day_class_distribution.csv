@@ -1,0 +1,6 @@
+Capture_Day,BENIGN,Bot,DDoS,DoS GoldenEye,DoS Hulk,DoS Slowhttptest,DoS slowloris,FTP-Patator,Heartbleed,Infiltration,PortScan,SSH-Patator,Web Attack - Brute Force,Web Attack - SQL Injection,Web Attack - XSS
+Friday,400234,1948,128014,0,0,0,0,0,0,0,90694,0,0,0,0
+Monday,502573,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Thursday,414738,0,0,0,0,0,0,0,0,36,0,0,1470,21,652
+Tuesday,412452,0,0,0,0,0,0,5931,0,0,0,3219,0,0,0
+Wednesday,416712,0,0,10282,172846,5228,5374,0,11,0,0,0,0,0,0

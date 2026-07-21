@@ -15,12 +15,12 @@ def load_dataset(dataset_dir: Path) -> pd.DataFrame:
 
     csv_files = sorted(
         path for path in dataset_dir.glob("*.csv")
-        if path.name != "combined_dataset.csv"
+        if path.name.lower() not in {"combined_dataset.csv", "preprocessed_dataset.csv"}
     )
 
     if not csv_files:
         raise FileNotFoundError(
-            f"No CSV files found in dataset directory: {dataset_dir} (excluding combined_dataset.csv)"
+            f"No CSV files found in dataset directory: {dataset_dir} (excluding combined_dataset.csv and preprocessed_dataset.csv)"
         )
 
     print("CSV Files Found:")
@@ -32,12 +32,15 @@ def load_dataset(dataset_dir: Path) -> pd.DataFrame:
     for path in csv_files:
         print(f"Loading {path.name}...")
         df = pd.read_csv(path, low_memory=False, encoding="latin1")
+        df.columns = df.columns.str.strip()
+        df = df.loc[:, ~df.columns.duplicated()]
         dataframes.append(df)
 
     dataset = pd.concat(dataframes, ignore_index=True)
 
-    # Remove extra spaces from column names
+    # Remove extra spaces from column names and drop duplicate columns
     dataset.columns = dataset.columns.str.strip()
+    dataset = dataset.loc[:, ~dataset.columns.duplicated()]
 
     return dataset
 

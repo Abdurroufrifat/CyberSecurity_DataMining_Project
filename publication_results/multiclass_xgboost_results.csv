@@ -1,0 +1,2 @@
+Experiment,Model,Accuracy,Macro Precision,Macro Recall,Macro F1-score,Weighted F1-score,Training Time (s),Number of Classes
+Multi-class Random Split,XGBoost,1.0,1.0,1.0,1.0,1.0,15.671918869018555,12

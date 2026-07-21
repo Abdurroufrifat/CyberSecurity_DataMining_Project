@@ -1,0 +1,16 @@
+Label,Count
+BENIGN,2146709
+DoS Hulk,172846
+DDoS,128014
+PortScan,90694
+DoS GoldenEye,10282
+FTP-Patator,5931
+DoS slowloris,5374
+DoS Slowhttptest,5228
+SSH-Patator,3219
+Bot,1948
+Web Attack - Brute Force,1470
+Web Attack - XSS,652
+Infiltration,36
+Web Attack - SQL Injection,21
+Heartbleed,11

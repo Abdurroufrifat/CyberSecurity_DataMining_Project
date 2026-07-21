@@ -1,0 +1,4 @@
+Experiment,Model,Accuracy,Precision,Recall,F1-score,Training Time (s),Macro Precision,Macro Recall,Macro F1-score,Weighted F1-score,Number of Classes
+random_split_binary_xgboost,XGBoost,0.9986666666666667,0.9961681960270243,0.9957665557907469,0.9959673354168767,1.5129444599151611,,,,,
+time_based_binary_xgboost,XGBoost,0.77417,0.9987551544386525,0.3625861484578014,0.5320264417597447,2.1049067974090576,,,,,
+Multi-class Random Split,XGBoost,1.0,,,,15.671918869018555,1.0,1.0,1.0,1.0,12.0

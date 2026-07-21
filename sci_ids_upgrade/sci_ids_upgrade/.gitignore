@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+dataset/
+cache/
+outputs/
+outputs_full/
+*.pkl
+*.joblib
+

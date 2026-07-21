@@ -1,38 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.db
-*.sqlite
+# Large generated archives
+models.zip
+*.zip
 
-# Virtual environments
-venv/
-ENV/
-env/
-.venv/
-
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Logs and runtime files
-*.log
-*.tmp
-*.bak
-
-# System files
-.DS_Store
-Thumbs.db
-
-dataset/
+# Generated trained models
 models/
-combined_dataset.csv
 *.pkl
-*.pcap
-*.pcap_ISCX.csv
+*.pickle
+*.joblib

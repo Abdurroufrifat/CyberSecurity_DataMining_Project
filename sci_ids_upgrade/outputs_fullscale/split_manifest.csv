@@ -1,0 +1,5 @@
+Run_ID,Removed_Conflicting_Label_Rows,Temporal_Test_Overlap_Rows,Temporal_Novel_Only,Train_Rows_Before_Cap,Test_Rows_Before_Cap
+temporal_xgboost_42,1462,27141,False,1950670,620303
+temporal_linear_svm_42,1462,27141,False,1950670,620303
+temporal_novel_xgboost_42,1462,27141,True,1950670,593162
+temporal_novel_linear_svm_42,1462,27141,True,1950670,593162

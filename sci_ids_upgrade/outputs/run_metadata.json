@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-07-19T16:49:46.803444+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "2.3.3",
+  "numpy": "2.4.6",
+  "scikit_learn": "1.9.0",
+  "xgboost": "3.3.0",
+  "protocols": [
+    "unseen"
+  ],
+  "models": [
+    "logistic_regression",
+    "decision_tree",
+    "random_forest",
+    "linear_svm",
+    "xgboost"
+  ],
+  "seeds": [
+    52,
+    62
+  ],
+  "max_train_rows": 600000,
+  "max_test_rows": 200000,
+  "feature_count": 78,
+  "source_files": [
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+    "Monday-WorkingHours.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+    "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+    "Tuesday-WorkingHours.pcap_ISCX.csv",
+    "Wednesday-workingHours.pcap_ISCX.csv"
+  ]
+}
